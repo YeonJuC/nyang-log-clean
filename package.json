@@ -11,7 +11,6 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.126",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "cors": "^2.8.5",
@@ -33,6 +32,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/istanbul-reports": "^3.0.4",
+    "@types/node": "^20.17.32",
     "@types/react-router-dom": "^5.3.3",
     "@types/recharts": "^2.0.1",
     "@types/stack-utils": "^2.0.3",
