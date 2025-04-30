@@ -1,0 +1,153 @@
+[debug] [2025-04-30T04:49:50.103Z] ----------------------------------------------------------------------
+[debug] [2025-04-30T04:49:50.112Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-30T04:49:50.112Z] CLI Version:   14.2.1
+[debug] [2025-04-30T04:49:50.113Z] Platform:      win32
+[debug] [2025-04-30T04:49:50.113Z] Node Version:  v20.19.1
+[debug] [2025-04-30T04:49:50.114Z] Time:          Wed Apr 30 2025 13:49:50 GMT+0900 (대한민국 표준시)
+[debug] [2025-04-30T04:49:50.114Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-30T04:49:50.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-30T04:49:50.128Z] > authorizing via signed-in user (carplay1110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\master\nyang-log-clean
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-30T04:50:00.120Z] Checked if tokens are valid: false, expires at: 1745983964845
+[debug] [2025-04-30T04:50:00.120Z] Checked if tokens are valid: false, expires at: 1745983964845
+[debug] [2025-04-30T04:50:00.121Z] > refreshing access token with scopes: []
+[debug] [2025-04-30T04:50:00.124Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-04-30T04:50:00.124Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-30T04:50:00.468Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-04-30T04:50:00.468Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-30T04:50:00.484Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-30T04:50:01.213Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-30T04:50:01.213Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project nyang-log (nyang-log) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-30T04:50:01.240Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:50:01.240Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:50:01.240Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log [none]
+[debug] [2025-04-30T04:50:01.561Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log 200
+[debug] [2025-04-30T04:50:01.562Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log {"projectId":"nyang-log","projectNumber":"673198103347","displayName":"nyang-log","name":"projects/nyang-log","resources":{"hostingSite":"nyang-log"},"state":"ACTIVE","etag":"1_343ee34f-df30-4550-a249-cf4ee531ad17"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-04-30T04:51:00.112Z] ----------------------------------------------------------------------
+[debug] [2025-04-30T04:51:00.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-30T04:51:00.119Z] CLI Version:   14.2.1
+[debug] [2025-04-30T04:51:00.119Z] Platform:      win32
+[debug] [2025-04-30T04:51:00.119Z] Node Version:  v20.19.1
+[debug] [2025-04-30T04:51:00.119Z] Time:          Wed Apr 30 2025 13:51:00 GMT+0900 (대한민국 표준시)
+[debug] [2025-04-30T04:51:00.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-30T04:51:00.130Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-30T04:51:00.130Z] > authorizing via signed-in user (carplay1110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\master\nyang-log-clean
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-30T04:51:03.680Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:03.680Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:03.682Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-30T04:51:04.573Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-30T04:51:04.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project nyang-log (nyang-log) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-30T04:51:05.219Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:05.220Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:05.220Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log [none]
+[debug] [2025-04-30T04:51:05.526Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log 200
+[debug] [2025-04-30T04:51:05.527Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log {"projectId":"nyang-log","projectNumber":"673198103347","displayName":"nyang-log","name":"projects/nyang-log","resources":{"hostingSite":"nyang-log"},"state":"ACTIVE","etag":"1_343ee34f-df30-4550-a249-cf4ee531ad17"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-04-30T04:51:33.909Z] ----------------------------------------------------------------------
+[debug] [2025-04-30T04:51:33.915Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-30T04:51:33.915Z] CLI Version:   14.2.1
+[debug] [2025-04-30T04:51:33.916Z] Platform:      win32
+[debug] [2025-04-30T04:51:33.916Z] Node Version:  v20.19.1
+[debug] [2025-04-30T04:51:33.916Z] Time:          Wed Apr 30 2025 13:51:33 GMT+0900 (대한민국 표준시)
+[debug] [2025-04-30T04:51:33.916Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-30T04:51:33.926Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-30T04:51:33.927Z] > authorizing via signed-in user (carplay1110@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\master\nyang-log-clean
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-30T04:51:37.224Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:37.224Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:37.226Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-30T04:51:37.941Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-30T04:51:37.941Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project nyang-log (nyang-log) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-30T04:51:38.586Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:38.586Z] Checked if tokens are valid: true, expires at: 1745992199468
+[debug] [2025-04-30T04:51:38.586Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log [none]
+[debug] [2025-04-30T04:51:38.850Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log 200
+[debug] [2025-04-30T04:51:38.850Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nyang-log {"projectId":"nyang-log","projectNumber":"673198103347","displayName":"nyang-log","name":"projects/nyang-log","resources":{"hostingSite":"nyang-log"},"state":"ACTIVE","etag":"1_343ee34f-df30-4550-a249-cf4ee531ad17"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-04-30T04:51:49.052Z] Error: ENOTDIR: not a directory, scandir 'C:\Users\master\nyang-log-clean\build'
+    at Object.readdirSync (node:fs:1507:26)
+    at Object.createFileSync (C:\Users\master\AppData\Local\nvm\v20.19.1\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:55:10)
+    at Config.writeProjectFile (C:\Users\master\AppData\Local\nvm\v20.19.1\node_modules\firebase-tools\lib\config.js:162:12)
+    at Config.askWriteProjectFile (C:\Users\master\AppData\Local\nvm\v20.19.1\node_modules\firebase-tools\lib\config.js:192:18)
+    at doSetup (C:\Users\master\AppData\Local\nvm\v20.19.1\node_modules\firebase-tools\lib\init\features\hosting\index.js:173:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async init (C:\Users\master\AppData\Local\nvm\v20.19.1\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.

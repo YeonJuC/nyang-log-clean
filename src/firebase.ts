@@ -5,7 +5,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBimWRCY4lE6B-mhBQsRzUeelGYuWQzWM4",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "nyang-log.firebaseapp.com",
     projectId: "nyang-log",
     storageBucket: "nyang-log.firebasestorage.app",
