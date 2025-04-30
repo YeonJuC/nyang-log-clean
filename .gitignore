@@ -9,3 +9,6 @@ dist/
 firebaseConfig.js
 # VSCode settings
 .vscode/
+
+/build
+
